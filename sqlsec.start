@@ -1,0 +1,3 @@
+#!/bin/bash
+cd /srv/http
+/usr/local/mysqlproxy/bin/mysql-proxy --proxy-lua-script=/srv/http/sqlsec.lua

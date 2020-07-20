@@ -1,0 +1,3 @@
+#!/bin/sh
+
+cat tmpp |sed "s|^|\n$(date): |g" >>log.txt
